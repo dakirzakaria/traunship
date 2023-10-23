@@ -26,7 +26,7 @@ nav ul {
   padding: 12px 32px;
   background: #b85c38;
 }
-/* main */
+/* main-hero */
 .hero {
   height: 800px;
 }
@@ -51,6 +51,56 @@ h1 {
   border: solid #ffffff;
   background-color: transparent;
   margin-left: 24px;
+}
+/* main-prodcuts */
+.prodcuts {
+  height: 1022px;
+}
+.text-section{
+  width: 920px;
+  text-align: center;
+}
+.text-section h2{
+font-size: 64px;
+font-weight: 700;
+color: #2D2424;
+}
+.text-section p{
+font-size: 24px;
+margin-top: 24px;
+color: #BDBDBD;
+}
+.row:last-child{
+  margin-top: 80px;
+}
+.group{
+  width: 350px;
+height: 180px;
+}
+.group span{
+color: #B85C38;
+}
+.group p{
+font-size: 14px;
+width: 250px;
+}
+.group-one::before {
+  content: url(img/plasma.svg);
+}
+.group-two::before {
+  content: url(img/liquid.svg);
+}
+.group-three::before {
+  content: url(img/ion.svg);
+}
+.group-four::before {
+  content: url(img/plasma.svg);
+}
+.group-five::before {
+  content: url(img/super.svg);
+}
+.group-six::before {
+  content: url(img/ultra.svg);
 }
 /*  */
 a {
