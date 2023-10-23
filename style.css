@@ -26,6 +26,7 @@ nav ul {
   padding: 12px 32px;
   background: #b85c38;
 }
+/* main */
 .hero {
   height: 800px;
 }
@@ -51,7 +52,6 @@ h1 {
   background-color: transparent;
   margin-left: 24px;
 }
-
 /*  */
 a {
   text-decoration: none;
