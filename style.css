@@ -1,0 +1,86 @@
+/* universal reset */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body */
+body{
+  font-family: 'Nunito', sans-serif;
+  max-width: 1440px;
+  max-height: 100vh;
+  background: url("img/background.jpeg") center/cover no-repeat;
+}
+/* header */
+header{
+  margin: 77px auto 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+nav ul{
+  width: 447px;
+  list-style: none; 
+}
+.btn{
+  padding: 12px 32px;
+  background: #B85C38;
+}
+/*  */
+a{
+  text-decoration: none;
+}
+.max-width{
+  max-width: 1110px;
+}
+.flex{
+  display: flex;
+}
+.jc-between{
+  justify-content: space-between;
+}
+.jc-evenly{
+  justify-content: space-evenly;
+}
+.jc-center{
+  justify-content: center;
+}
+.items-center{
+  align-items: center;
+}
+.column{
+  flex-direction: column;
+}
+.txt-white{
+  color: #ffffff;
+}
+.txt-gray74{
+  color: #BDBDBD;
+}
+.radius-40{
+  border-radius: 40px;
+}
+.margin-center{
+  margin: 0 auto;
+}
+.txt-center{
+  text-align: center;
+}
+.txt-bold{
+  font-weight: 700;
+}
+.txt-18{
+  font-size: 18px;
+}
+.txt-xl{
+  font-size: 20px;
+}
+.txt-2xl{
+  font-size: 24px;
+}
+.txt-7xl{
+  font-size: 48px;
+}
+.txt-9xl{
+  font-size: 64px;
+}
