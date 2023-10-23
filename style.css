@@ -134,6 +134,58 @@ height: 157px;
 .text-item a{
   color: #B85C38;
 }
+/* blog */
+.blog{
+  height: 800px;
+  background-color: #F7F9FC;
+}
+.blog-item{
+  height: 600px;
+}
+.text-blog{
+  width: 445px;
+  height: 500px;
+}
+h3{
+  color: #333;
+}
+.text-blog a{
+  width: 156px;
+  padding: 18px 32px;
+  background-color: #B85C38;
+}
+.cards{
+  width: 730px;
+  margin-left: 30px;
+  }
+  .card{
+    width: 350px;
+    height: 600px;
+    border-radius: 8px;
+  background: #FFF;
+  /* box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.12); */
+  }
+  .text-img{
+    margin: 25px 30px 79px;
+    width: 292px;
+  height: 246px;
+  }
+  .text-img q{
+    font-size: 30px;
+    color: #333;
+  }
+  .text-img p{
+    color: #BDBDBD;
+  }
+  .text-img a{
+    color: #B85C38;
+  }
+  .card-one::before{
+    content: url(img/imageone.png);
+  }
+  .card-two::before{
+    content: url(img/imagetwo.png);
+  }
 /*  */
 a {
   text-decoration: none;
