@@ -102,6 +102,38 @@ width: 250px;
 .group-six::before {
   content: url(img/ultra.svg);
 }
+/* features */
+.features{
+  height: 1022px;
+}
+.items{
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+.item{
+  width: 540px;
+height: 200px;
+overflow: hidden;
+}
+.one::before{
+  content: url(img/imgone.png);
+}
+.two::before{
+  content: url(img/imgtwo.png);
+}
+.three::before{
+  content: url(img/imgthree.png);
+}
+.four::before{
+  content: url(img/imgfour.png);
+}
+.text-item{
+  width: 310px;
+height: 157px;
+}
+.text-item a{
+  color: #B85C38;
+}
 /*  */
 a {
   text-decoration: none;
