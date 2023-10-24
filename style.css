@@ -8,21 +8,24 @@
 body {
   font-family: "Nunito", sans-serif;
   max-width: 1440px;
-  max-height: 100vh;
+  height: 100vh;
   background: url("img/background.jpeg") center/cover no-repeat;
 }
 /* header */
 header {
-  margin: 77px auto 0;
   left: 0;
   right: 0;
+  top: 77px;
 }
 nav ul {
   width: 447px;
-  list-style: none;
 }
 .btn {
   padding: 12px 32px;
+}
+/* main */
+main {
+  width: 100%;
 }
 /* hero */
 .hero {
@@ -91,19 +94,18 @@ h1 {
 }
 /* testmonial */
 .testmonial {
-  max-width: 1440px;
-  height: 600px;
   background-color: #e0c097;
-  overflow: hidden;
+}
+.testmonial-items {
+  width: 1440px;
   position: relative;
+  height: 600px;
 }
 .img-testmonial {
   width: 801.195px;
-  height: 960px;
   border-radius: 50%;
   left: -11%;
   top: -25%;
-  overflow: hidden;
 }
 .text-testmonial {
   width: 445px;
@@ -126,8 +128,6 @@ h1 {
 }
 .item {
   width: 540px;
-  height: 200px;
-  overflow: hidden;
 }
 .one::before {
   content: url(img/imgone.png);
@@ -150,9 +150,6 @@ h1 {
   height: 800px;
   background-color: #f7f9fc;
 }
-.blog-item {
-  height: 600px;
-}
 .text-blog {
   width: 445px;
   height: 500px;
@@ -166,13 +163,11 @@ h1 {
 }
 .card {
   width: 350px;
-  height: 600px;
   border-radius: 8px;
   background-color: #ffffff;
 }
 .text-img {
   margin: 25px 30px 79px;
-  width: 292px;
   height: 246px;
 }
 .text-img q {
@@ -205,6 +200,9 @@ h1 {
 a {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 .absolute {
   position: absolute;
 }
@@ -230,7 +228,7 @@ a {
   flex-direction: column;
 }
 .bg-orange {
-  color: #b85c38;
+  background-color: #b85c38;
 }
 .txt-white {
   color: #ffffff;
@@ -273,4 +271,7 @@ a {
 }
 .btn-padding {
   padding: 18px 32px;
+}
+.over-hidden {
+  overflow: hidden;
 }
