@@ -98,22 +98,22 @@ h1 {
 .group-six::before {
   content: url(img/ultra.svg);
 }
-/* testmonial */
-.testmonial {
+/* testimonial */
+.testimonial {
   background-color: #e0c097;
 }
-.testmonial-items {
+.testimonial-items {
   width: 1440px;
   position: relative;
   height: 600px;
 }
-.img-testmonial {
+.img-testimonial {
   width: 801.195px;
   border-radius: 50%;
   left: -11%;
   top: -25%;
 }
-.text-testmonial {
+.text-testimonial {
   width: 445px;
   height: 335px;
   left: 60%;
