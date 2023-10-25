@@ -9,7 +9,14 @@ body {
   font-family: "Nunito", sans-serif;
   max-width: 1440px;
   height: 100vh;
-  background: url("img/background.jpeg") center/cover no-repeat;
+  background: url("img/background.png") center/cover no-repeat;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
 }
 /* header */
 header {
@@ -25,7 +32,7 @@ nav ul {
 }
 /* main */
 main {
-  width: 100%;
+  max-width: 1440px;
 }
 /* hero */
 .hero {
@@ -54,7 +61,6 @@ h1 {
 }
 .text-section {
   width: 920px;
-  text-align: center;
 }
 .text-section h2 {
   font-size: 64px;
@@ -196,12 +202,53 @@ h1 {
 .person-three::before {
   content: url(img/pthree.png);
 }
-/* class */
-a {
-  text-decoration: none;
+/* footer */
+footer{
+  max-width: 1440px;
+  background-color: #2D2424;
+  height: 700px;
+  padding: 160px 165px 0px;
 }
-ul {
-  list-style: none;
+.footer-top{
+  border-bottom: #ffffff16 solid 1px;
+  padding: 0px 0 120px;
+}
+.address h4{
+  font-size: 36px;
+}
+.title-footer{
+  margin-bottom: 34px;
+}
+li a{
+  margin:24px 0 ; 
+}
+form{
+border-radius: 8px;
+background: #ffffff2e;
+padding: 42px 23px;
+}
+label{
+margin-bottom: 24px;
+}
+.email{
+  border-radius: 4px;
+width: 287.199px;
+outline: none;
+padding: 15px 0px 15px 19px;  
+margin-right: 18px;
+font-size: 14px;
+}
+.go{
+  padding: 18px 32px;
+  border: #b85c38;
+  cursor: pointer;
+}
+.socail-icons a{
+  margin: 0 12px;
+}
+/* class */
+.block{
+  display: block;
 }
 .absolute {
   position: absolute;
