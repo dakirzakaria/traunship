@@ -51,7 +51,7 @@ h1 {
   font-size: 72px;
 }
 .btn-hero a:last-child {
-  border: solid #ffffff;
+  border: solid #ffffff 1px;
   background-color: transparent;
   margin-left: 24px;
 }
@@ -203,51 +203,83 @@ h1 {
   content: url(img/pthree.png);
 }
 /* footer */
-footer{
+footer {
   max-width: 1440px;
-  background-color: #2D2424;
+  background-color: #2d2424;
   height: 700px;
   padding: 160px 165px 0px;
 }
-.footer-top{
+.footer-top {
   border-bottom: #ffffff16 solid 1px;
   padding: 0px 0 120px;
 }
-.address h4{
+.address h4 {
   font-size: 36px;
 }
-.title-footer{
+.title-footer {
   margin-bottom: 34px;
 }
-li a{
-  margin:24px 0 ; 
+li a {
+  margin: 24px 0;
 }
-form{
-border-radius: 8px;
-background: #ffffff2e;
-padding: 42px 23px;
+form {
+  border-radius: 8px;
+  background: #ffffff2e;
+  padding: 42px 23px;
 }
-label{
-margin-bottom: 24px;
+label {
+  margin-bottom: 24px;
 }
-.email{
+.email {
   border-radius: 4px;
-width: 287.199px;
-outline: none;
-padding: 15px 0px 15px 19px;  
-margin-right: 18px;
-font-size: 14px;
+  width: 287.199px;
+  outline: none;
+  padding: 15px 0px 15px 19px;
+  margin-right: 18px;
+  font-size: 14px;
 }
-.go{
+.go {
   padding: 18px 32px;
-  border: #b85c38;
   cursor: pointer;
 }
-.socail-icons a{
+.socail-icons a {
   margin: 0 12px;
 }
+/* animation */
+.click, .link, .scale {
+  transition: all 0.4s;
+}
+.click:hover {
+  color: #de683a;
+  background-color: transparent;
+  border: #ffffff solid 1px;
+}
+.link:hover {
+  color: #de683a;
+}
+.scale:hover {
+  scale: 1.1;
+}
+.card:hover {
+  scale: 1.1;
+  box-shadow: 4px 4px 40px 0px #0000001f;
+}
+.beat {
+  animation: 1.3s infinite beat;
+}
+@keyframes beat {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.1;
+  }
+  100% {
+    scale: 1.02;
+  }
+}
 /* class */
-.block{
+.block {
   display: block;
 }
 .absolute {
@@ -321,4 +353,7 @@ font-size: 14px;
 }
 .over-hidden {
   overflow: hidden;
+}
+.border-orange {
+  border: #b85c38 solid 1px;
 }
