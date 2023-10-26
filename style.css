@@ -9,8 +9,7 @@ body {
   font-family: "Nunito", sans-serif;
   max-width: 1440px;
   height: 100vh;
-  background: url("img/background.png") center/cover no-repeat;
-  position: relative;
+  background: url("img/background.png") no-repeat;
 }
 a {
   text-decoration: none;
@@ -20,57 +19,66 @@ ul {
 }
 /* header */
 header {
+  max-width: 1440px;
+  position: absolute;
   left: 0;
   right: 0;
   top: 77px;
 }
-nav ul {
-  width: 447px;
+.nav-list {
+  width: 550px;
 }
-.btn {
+.nav-btn {
   padding: 12px 32px;
+  border: #b85c38 solid 1px;
 }
+/* header end */
 /* main */
 main {
   max-width: 1440px;
 }
 /* hero */
 .hero {
-  height: 800px;
+  height: 920px;
 }
 .hero-items {
   height: 362px;
+  text-align: center;
 }
 .play {
   width: 80px;
   height: 80px;
+  border: #b85c38 solid 1px;
   border-radius: 50%;
   cursor: pointer;
 }
 h1 {
-  font-size: 72px;
+  font-size: 73px;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.25);
 }
-.btn-hero a:last-child {
-  border: solid #ffffff 1px;
+.hero-btn {
+  width: 337px;
+}
+.hero-btn a {
+  padding: 18px 32px;
+  border: #b85c38 solid 1px;
+}
+.hero-btn a:nth-child(2) {
   background-color: transparent;
-  margin-left: 24px;
+  border: white solid 1px;
 }
-/* prodcuts */
-.prodcuts {
+/* hero end */
+/* products */
+.products {
   height: 1022px;
 }
-.text-section {
+.products-text {
   width: 920px;
 }
-.text-section h2 {
+.title-section {
+  color: var(--Dark, #2d2424);
   font-size: 64px;
-  color: #2d2424;
-}
-.text-section p {
-  margin-top: 24px;
-}
-.row:last-child {
-  margin-top: 80px;
+  margin-bottom: 24px;
 }
 .group {
   width: 350px;
@@ -98,59 +106,79 @@ h1 {
 .group-six::before {
   content: url(img/ultra.svg);
 }
+/* products end */
 /* testimonial */
-.testimonial {
-  background-color: #e0c097;
-}
-.testimonial-items {
-  width: 1440px;
-  position: relative;
+.testimonial{
+  max-width: 1440px;
   height: 600px;
+background-color: #E0C097 ;
+overflow: hidden;
+position: relative;
 }
-.img-testimonial {
+.testimonial-img{
   width: 801.195px;
+  height: 958px;
   border-radius: 50%;
-  left: -11%;
-  top: -25%;
+  overflow: hidden;
+  left: -240px;
+  bottom: -185px;
 }
-.text-testimonial {
+.testimonial-text{
   width: 445px;
-  height: 335px;
-  left: 60%;
+height: 335px;
+right: 120px;
+top: 150px;  
+color: var(--Brown, #5C3D2E);
 }
-.profile {
+.profile{
   width: 210px;
+height: 64px;
+margin-top: 24px ;
 }
-.profile::before {
+.profile::before{
   content: url(img/profile.png);
 }
+/* testimonial end */
 /* features */
-.features {
-  height: 1022px;
+.features{
+  height: 950px;
 }
-.items {
+.features-text{
+  width: 920px;
+}
+.features-items{
+height: 441px;
   flex-wrap: wrap;
   row-gap: 40px;
 }
-.item {
+.item{
   width: 540px;
+height: 200px;
 }
-.one::before {
+.item-text{
+  width: 310px;
+height: 157px;
+
+}
+.item-text p{
+font-size: 16px;
+}
+.item-text a{
+font-size: 16px;
+}
+.item-one::before {
   content: url(img/imgone.png);
 }
-.two::before {
+.item-two::before {
   content: url(img/imgtwo.png);
 }
-.three::before {
+.item-three::before {
   content: url(img/imgthree.png);
 }
-.four::before {
+.item-four::before {
   content: url(img/imgfour.png);
 }
-.text-item {
-  width: 310px;
-  height: 157px;
-}
+/* features end */
 /* blog */
 .blog {
   height: 800px;
@@ -185,6 +213,7 @@ h1 {
 .card-two::before {
   content: url(img/imagetwo.png);
 }
+/* blog end */
 /* portfolio */
 .portfolio {
   height: 420px;
@@ -202,6 +231,8 @@ h1 {
 .person-three::before {
   content: url(img/pthree.png);
 }
+/* portfolio end*/
+/* main end */
 /* footer */
 footer {
   max-width: 1440px;
@@ -245,8 +276,9 @@ label {
 .socail-icons a {
   margin: 0 12px;
 }
+/* footer end */
 /* animation */
-.click, .link, .scale {
+.click, .link, .scale, .card {
   transition: all 0.4s;
 }
 .click:hover {
