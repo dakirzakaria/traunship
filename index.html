@@ -11,198 +11,193 @@
   <title>Traunship</title>
 </head>
 <body> 
-<header class="absolute ">
-  <nav class="max-width flex jc-between items-center margin-center">
-    <a class="logo txt-white txt-2xl txt-bold link" href="#">Traunship</a>
-    <ul class="nav-list flex jc-between">
-      <li><a class="txt-white txt-2xl link" href="#features">Features</a></li>
-      <li><a class="txt-white txt-2xl link" href="#products">Products</a></li>
-      <li><a class="txt-white txt-2xl link" href="#testimonial">Testimonial</a></li>
-      <li><a class="txt-white txt-2xl link" href="#contact">Contact</a></li>
-    </ul>
-    <a class="nav-btn txt-white txt-18 bg-orange radius-40 click" href="">Try a demo</a>
-  </nav>
-</header>
+  <header class="flex space-between items-center absolute">
+    <a class="logo font-24 bold text-white link" href="#">Traunship</a>
+    <nav>
+      <ul class="list flex space-between items-center">
+        <li><a class="font-18 text-white link" href="#">Features</a></li>
+        <li><a class="font-18 text-white link" href="#">Products</a></li>
+        <li><a class="font-18 text-white link" href="#">Testimonial</a></li>
+        <li><a class="font-18 text-white link" href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn text-white font-18 bg-orange radius-40 border-orange click" href="#">Try a demo</a>
+  </header>
+</body>
 <main>
   <!-- hero -->
-  <section class="hero max-width flex items-center jc-center margin-center">
-    <div class="hero-items flex column items-center jc-evenly">
-      <div class="play flex items-center jc-center bg-orange click beat"><i class="fa-solid fa-play fa-fade fa-xl" style="color: #ffffff;"></i></div>
-      <div class="hero-text txt-white">
-        <h1 class="txt-bold">Best place to buy rocket</h1>
-        <p class="txt-2xl txt-bold">Quis ipsum pellentesque nulla nulla elementum sagittis dictum</p>
+  <section class="hero flex justify-center items-center">
+    <div class="hero-text">
+      <div class="play flex items-center justify-center bg-orange beat click"><i class="fa-solid fa-play fa-fade fa-xl text-white"></i></div>
+      <h1 class="text-white bold">Best place to buy rocket</h1>
+      <p class="text-white font-24 text-center">Quis ipsum pellentesque nulla nulla elementum sagittis dictum</p>
+      <div class="hero-btns flex space-evenly items-center">
+        <a class="text-white bold font-20 radius-40 bg-orange padding-btn border-orange click" href="#">Try a demo</a>
+        <a class="buy-btn text-white bold font-20 radius-40 padding-btn border-white click" href="#">Buy now</a>
       </div>
-      <div class="hero-btn flex jc-between items-center">
-        <a class="txt-xl txt-bold radius-40 txt-white bg-orange click" href="#">Try a demo</a>
-        <a class="txt-xl txt-bold radius-40 txt-white bg-orange click" href="#">Buy now</a>
-      </div>
-  </div>
-  </section>
-  <!-- products -->
-  <section id="products" class="products max-width margin-center flex column jc-evenly items-center">
-    <div class="products-text txt-center">
-      <h2 class="title-section txt-bold">Features you can’s avoid</h2>
-      <p class="txt-gray74 txt-2xl">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
     </div>
-      <div class="row flex jc-between">
-        <div class="group group-one flex jc-between items-center column scale">
-          <span class="txt-orange txt-2xl txt-bold">Solid Fuel</span>
-          <p class="txt-gray74 txt-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </div>
-        <div class="group group-two flex jc-between items-center column scale">
-          <span class="txt-orange txt-2xl txt-bold">Solid Fuel</span>
-          <p class="txt-gray74 txt-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </div>
-        <div class="group group-three flex jc-between items-center column scale">
-          <span class="txt-orange txt-2xl txt-bold">Solid Fuel</span>
-          <p class="txt-gray74 txt-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </div>
-      </div>
-      <div class="row flex jc-between">
-        <div class="group group-four flex jc-between items-center column scale">
-          <span class="txt-orange txt-2xl txt-bold">Solid Fuel</span>
-          <p class="txt-gray74 txt-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </div>
-        <div class="group group-five flex jc-between items-center column scale">
-          <span class="txt-orange txt-2xl txt-bold">Solid Fuel</span>
-          <p class="txt-gray74 txt-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </div>
-        <div class="group group-six flex jc-between items-center column scale">
-          <span class="txt-orange txt-2xl txt-bold">Solid Fuel</span>
-          <p class="txt-gray74 txt-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </div>
-      </div>
+  </section>
+    <!-- features -->
+  <section class="features">
+    <h2 class="title-section bold text-center">Features you can’s avoid</h2>
+    <p class="paragraph text-center font-24">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
+    <div class="features-wrap flex justify-center wrap">
+      <article class="item item-one">
+        <h3 class="title-item text-orange font-24 bold text-center">Solid Fuel</h3>
+        <p class="paragraph-item text-gray text-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+      </article>
+      <article class="item item-two">
+        <h3 class="title-item text-orange font-24 bold text-center">Liquid Fuel</h3>
+        <p class="paragraph-item text-gray text-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+      </article>
+      <article class="item item-three">
+        <h3 class="title-item text-orange font-24 bold text-center">Ion Rocket</h3>
+        <p class="paragraph-item text-gray text-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+      </article>
+      <article class="item item-four">
+        <h3 class="title-item text-orange font-24 bold text-center">Plasma Rocket</h3>
+        <p class="paragraph-item text-gray text-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+      </article>
+      <article class="item item-five">
+        <h3 class="title-item text-orange font-24 bold text-center">Supersonic Rocket</h3>
+        <p class="paragraph-item text-gray text-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+      </article>
+      <article class="item item-six">
+        <h3 class="title-item text-orange font-24 bold text-center">Ultra Rocket</h3>
+        <p class="paragraph-item text-gray text-center">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+      </article>
+    </div>
   </section>
   <!-- testimonial -->
   <section id="testimonial" class="testimonial">
-    <div class="testimonial-img absolute"><img src="img/testmonial.jpeg" alt="" width="100%"></div>
-    <div class="testimonial-text absolute flex column jc-evenly">
-      <h3 class="txt-7xl txt-bold"><q>Right time to invest into space</q></h3>
-      <p class="txt-2xl">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
-      <div class="profile flex jc-between items-center">
-        <span>Milon Ask <br>CEO, Blackhole</span>
+    <div class="testimonial-img absolute"><img src="img/testimonial-img.jpeg" alt="" width="100%"></div>
+    <div class="testimonial-text absolute">
+      <h3 class="bold font-48"><q>Right time to invest into space</q></h3>
+      <p class="font-24">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
+      <div class="profile flex items-center">
+        <div class="text-profile">
+          <span class="font-18">Milon Ask</span>
+          <span class="font-18">CEO, Blackhole</span>
+        </div>
       </div>
     </div>
   </section>
-  <!-- features -->
-  <section id="features" class="features  max-width flex jc-evenly items-center column margin-center">
-    <div class="features-text txt-center margin-center">
-      <h2 class="title-section txt-bold">Affordable, good quality.</h2>
-      <p class="txt-gray74 txt-2xl">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
-    </div>
-    <div class="features-items flex jc-between">
-      <div class="item item-one flex items-center jc-between scale">
-        <div class="item-text">
-          <span class="txt-2xl txt-bold">Million pounds of thrust</span>
-          <p class="txt-gray74">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-          <a class="txt-orange" href="#">Learn more</a>
-        </div>
+  <!-- affordable -->
+  <section class="affordable">
+    <h2 class="title-section bold text-center">Affordable, good quality.</h2>
+    <p class="paragraph text-center font-24">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
+    <div class="affordable-wrap flex justify-center wrap">
+      <div class="group group-one flex space-between items-center scale">
+        <article class="group-text">
+          <h3 class="font-24 bold">Million pounds of thrust</h3>
+          <p class="paragraph-group text-gray">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+          <a class="text-orange" href="#">Learn more</a>
+        </article>
       </div>
-      <div class="item item-two flex items-center jc-between scale">
-        <div class="item-text">
-          <span class="txt-2xl txt-bold">Million pounds of thrust</span>
-          <p class="txt-gray74">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-          <a class="txt-orange" href="#">Learn more</a>
-        </div>
+      <div class="group group-two flex space-between items-center scale">
+        <article class="group-text">
+          <h3 class="font-24 bold">More than 1,300 missions</h3>
+          <p class="paragraph-group text-gray">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+          <a class="text-orange" href="#">Learn more</a>
+        </article>
       </div>
-      <div class="item item-three flex items-center jc-between scale">
-        <div class="item-text">
-          <span class="txt-2xl txt-bold">Million pounds of thrust</span>
-          <p class="txt-gray74">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-          <a class="txt-orange" href="#">Learn more</a>
-        </div>
+      <div class="group group-three flex space-between items-center scale">
+        <article class="group-text">
+          <h3 class="font-24 bold">Atlas launched Friendship</h3>
+          <p class="paragraph-group text-gray">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+          <a class="text-orange" href="#">Learn more</a>
+        </article>
       </div>
-      <div class="item item-four flex items-center jc-between scale">
-        <div class="item-text">
-          <span class="txt-2xl txt-bold">Million pounds of thrust</span>
-          <p class="txt-gray74">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-          <a class="txt-orange" href="#">Learn more</a>
-        </div>
+      <div class="group group-four flex space-between items-center scale">
+        <article class="group-text">
+          <h3 class="font-24 bold">Separate spacecraft</h3>
+          <p class="paragraph-group text-gray">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+          <a class="text-orange" href="#">Learn more</a>
+        </article>
       </div>
     </div>
   </section>
   <!-- blog -->
-  <section class="blog flex jc-center items-center">
-    <div class="blog-item flex jc-between items-center">
-      <div class="text-blog flex jc-evenly column">
-        <h3 class="txt-7xl txt-dark-gray">Don’t miss Rocket Science blog</h3>
-        <p class="txt-gray74 txt-2xl">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
-        <a class="radius-40 txt-xl txt-white bg-orange btn-padding" href="">All stories</a>
+  <section class="blog">
+    <div class="blog-item flex space-between">
+      <div class="blog-text">
+        <h2 class="bold font-48 text-dark-gray">Don’t miss Rocket Science blog</h2>
+        <p class="paragraph-blog font-24 text-gray">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
+        <a class="bold padding-btn bg-orange text-white font-20 radius-40" href="">All stories</a>
       </div>
-      <div class="cards flex jc-between">
-        <div class="card card-one ">
-          <div class="text-img flex jc-between column">
-          <q class="txt-bold txt-dark-gray">Rocket lab boots its space system</q>
-          <p class="txt-gray74 txt-xl">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
-          <a class="txt-xl txt-orange" href="#">Read story</a>
+      <div class="blog-cards flex">
+        <div class="card card-one">
+          <article class="text-card">
+            <q class="quot bold text-dark-gray">Rocket lab boots its space system</q>
+            <p class="paragraph-card font-20 text-gray">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
+            <a class="text-orange font-20" href="">Read story</a>
+          </article>
         </div>
-        </div>
-        <div class="card card-two jc-between">
-          <div class="text-img flex jc-between column">
-          <q class="txt-bold txt-dark-gray">NASA’s big rocket misses deadline</q>
-          <p class="txt-gray74 txt-xl">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
-          <a class="txt-xl txt-orange" href="#">Read story</a>
-        </div>
+        <div class="card card-two">
+          <article class="text-card">
+            <q class="quot bold text-dark-gray">Rocket lab boots its space system</q>
+            <p class="paragraph-card font-20 text-gray">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
+            <a class="text-orange font-20" href="">Read story</a>
+          </article>
         </div>
       </div>
     </div>
   </section>
-  <!-- portfolio -->
-  <section class="portfolio max-width flex jc-evenly items-center margin-center">
-    <div class="person person-one flex jc-evenly items-center column txt-center txt-dark-gray scale"> 
-      <p class="txt-2xl">I brought a rocket for my son in his 14th birthday. I liked their service. Love it.</p>
-      <span class="name txt-bold txt-xl">Wade Warren</span>
-      <span class="work">Astronaut</span>
+  <!-- portflio -->
+  <section class="portfolio flex items-center space-evenly">
+    <div class="person person-one text-dark-gray"> 
+      <p class="person-paragraph font-24 text-center">I brought a rocket for my son in his 14th birthday. I liked their service. Love it.</p>
+      <span class="block bold text-center font-20">Wade Warren</span>
+      <span class="text-center block">Astronaut</span>
     </div>
-    <div class="person person-two flex jc-evenly items-center column txt-center txt-dark-gray scale">
-      <p class="txt-2xl">They delivered my custom rocket as fast as the rocket itself. Mindblowing.</p>
-      <span class="name txt-bold txt-xl">Esther Howard</span>
-      <span class="work">Appolo 11 Pilot</span>
+    <div class="person person-two text-dark-gray">
+      <p class="person-paragraph font-24 text-center">They delivered my custom rocket as fast as the rocket itself. Mindblowing.</p>
+      <span class="block bold text-center font-20">Esther Howard</span>
+      <span class="text-center block">Appolo 11 Pilot</span>
     </div>
-    <div class="person person-three flex jc-evenly items-center column txt-center txt-dark-gray scale">
-      <p class="txt-2xl">I found awesome customer service from them. They fixed my rocket within a day.</p>
-      <span class="name txt-bold txt-xl">Cameron Williamson</span>
-      <span class="work">NASA Manager</span>
+    <div class="person person-three text-dark-gray">
+      <p class="person-paragraph font-24 text-center">I found awesome customer service from them. They fixed my rocket within a day.</p>
+      <span class="block bold text-center font-20">Cameron Williamson</span>
+      <span class="text-center block">NASA Manager</span>
     </div>
   </section>
-<footer id="contact" class="margin-center txt-white flex column jc-evenly">
-  <div class="footer-top flex jc-between">
-    <div class="address">
-      <h4 class="txt-white title-footer">Traunship</h4>
+</main>
+<footer>
+  <div class="footer">
+  <div class="footer-top flex space-between">
+    <div class="address-items">
+      <a class="logo-footer text-white bold" href="#">Traunship</a>
+      <address class="address text-white">4517 Washington Ave. Manchester, Kentucky 39495</address>
+      <a class="tele block text-white" href="#">(684) 555-0102</a>
+      <a class="tele block text-white" href="#">(603) 555-0123</a>
+    </div>
+    <div class="nav-links">
+      <h2 class="title-footer text-white font-24 bold">Quick Links</h2>
       <ul>
-        <li><address>4517 Washington Ave. Manchester,<br> Kentucky 39495</address></li>
-        <li><a class="block txt-white link" href="">(684) 555-0102</a></li>
-        <li><a class="block txt-white link" href="">(603) 555-0123</a></li>
+        <li class="list-link"><a class="bold text-white" href="#">Features</a></li>
+        <li class="list-link"><a class="bold text-white" href="#">Products</a></li>
+        <li class="list-link"><a class="bold text-white" href="#">Testimonial</a></li>
+        <li class="list-link"><a class="bold text-white" href="#">Contact</a></li>
       </ul>
     </div>
-    <div class="pages">
-      <h4 class="txt-2xl txt-white title-footer">Quick Links</h4>
-      <ul>
-        <li><a class="block txt-white link" href="#">Features</a></li>
-        <li><a class="block txt-white link" href="#">Products</a></li>
-        <li><a class="block txt-white link" href="#">Testimonial</a></li>
-        <li><a class="block txt-white link" href="#">Contact</a></li>
-      </ul>
-    </div>
-    <div class="newsletter">
-      <h4 class="txt-2xl txt-white title-footer"> Newsletter</h4>
+    <div class="form">
+      <h2 class="title-footer text-white font-24 bold">Newsletter</h2>
       <form action="">
-        <label class="txt-18 block" for="">We send updates in every week</label>
-        <input class="email" type="email" name="" id="" placeholder="Email Address" required>
-        <input class="border-orange go click radius-40 bg-orange txt-white txt-18 txt-bold" type="submit" value="Go">
+        <p class="form-paragraph text-white font-18">We send updates in every week</p>
+        <input class="email border-white" type="email" placeholder="Email Address">
+        <input class="go border-orange text-white font-18 radius-40 bg-orange bold" type="submit" value="Go">
       </form>
     </div>
   </div>
-  <div class="footer-bottom jc-between flex">
-      <span>© 2021 Traunship. All right reserved.</span>
-      <div class="socail-icons">
-        <a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
-      </div>
+  <div class="footer-sub flex space-between">
+    <p class="text-white">&copy; 2021 Traunship. All right reserved.</p>
+    <div class="social-media">
+      <a href="#"><i class="icon fa-brands fa-facebook-f text-white"></i></a>
+      <a href="#"><i class="icon fa-brands fa-twitter text-white"></i></a>
+      <a href="#"><i class="icon fa-brands fa-instagram text-white"></i></a>
+      <a href="#"><i class="icon fa-brands fa-linkedin-in text-white"></i></a>
+    </div>
   </div>
+</div>
 </footer>
-</main>
-</body>
 </html>
