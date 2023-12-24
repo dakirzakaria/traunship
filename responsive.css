@@ -1,0 +1,180 @@
+@media only screen and (max-width: 1030px) {
+  .invest-conta {
+    padding: 89px;
+  }
+}
+@media only screen and (max-width: 845px) {
+  h1 {
+    font-size: 64px;
+  }
+  .features-title {
+    font-size: 50px;
+  }
+  .features-paragraph {
+    font-size: 16px;
+  }
+  .affordable-title {
+    font-size: 50px;
+  }
+  .affordable-paragraph {
+    font-size: 16px;
+  }
+  .blog-title {
+    font-size: 38px;
+  }
+  .blog-paragraph {
+    font-size: 16px;
+  }
+  .blog-card-content q {
+    font-size: 25px;
+  }
+  .blog-card-paragraph {
+    font-size: 17px;
+  }
+  .blog-card-content a {
+    font-size: 16px;
+  }
+  .invest {
+    min-height: 850px;
+    flex-direction: column;
+  }
+  .invest-image {
+    min-width: 100%;
+    min-height: 50%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    position: static;
+    top: 0;
+    transform: translateY(0);
+  }
+  .invest-container {
+    padding: 50px 16px;
+    min-height: 50%;
+  }
+  .invest-content {
+    height: 100%;
+    max-width: 100%;
+  }
+  .quote-invest {
+    font-size: 38px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    width: 360px;
+  }
+}
+@media only screen and (max-width: 668px) {
+  header {
+    top: 0;
+    background-color: var(--white-color);
+    height: 70px;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .logo {
+    color: var(--caramel-color);
+  }
+  .nav-list,
+  .header-button {
+    display: none;
+  }
+  .burger-nav-checkbox {
+    display: none;
+  }
+  .burger-nav {
+    display: block;
+    color: var(--caramel-color);
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+  }
+  .burger-nav-checkbox:checked + .burger-nav-list {
+    display: block;
+  }
+  .burger-nav-list {
+    position: absolute;
+    top: 67px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .burger-nav-list-link {
+    background-color: var(--white-color);
+  }
+  .burger-nav-list-link li {
+    width: 100%;
+    padding: 16px 70px;
+    text-align: center;
+  }
+  .burger-nav-list-link a {
+    font-size: 25px;
+    color: var(--caramel-color);
+  }
+  .button-burger {
+    display: block;
+    color: var(--);
+    font-size: 25px;
+    font-weight: 600;
+    border: 2px solid #0000004d;
+    padding: 16px;
+    border-radius: 40px;
+  }
+  .burger-nav-list-link a:hover {
+    font-weight: 700;
+  }
+  .hero-paragraph {
+    font-size: 18px;
+  }
+  .features-title {
+    font-size: 40px;
+  }
+  .features-paragraph {
+    font-size: 16px;
+  }
+  .affordable-title {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  form {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 377px) {
+  h1 {
+    font-size: 45px;
+  }
+  .features-title {
+    font-size: 34px;
+  }
+  .affordable-card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .review-paragraph {
+    margin: 24px 0;
+    font-size: 17px;
+  }
+  .name {
+    font-size: 17px;
+  }
+  .blog-title {
+    font-size: 30px;
+  }
+  .invest {
+    min-height: 1000px;
+  }
+  form {
+    margin: 0 auto;
+  }
+  .email-form {
+    border-radius: 8px;
+    background-color: #ffffff2e;
+    padding: 42px 10px;
+  }
+}
