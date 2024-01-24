@@ -1,221 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
-  <link rel="icon" href="./img/icon.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
-  <title>trunship</title>
-</head>
-<body>
-  <header class="main-container d-flex justify-content-between align-items-center">
-    <a href="#" class="logo font-bold white-text font-24">Traunship</a>
-    <nav>
-      <ul class="nav-list d-flex justify-content-between align-items-center">
-        <li class="link"><a href="#features" class="nav-list-link white-text">Features</a></li>
-        <li class="link"><a href="#prouducts" class="nav-list-link white-text">Products</a></li>
-        <li class="link"><a href="#testimonial" class="nav-list-link white-text">Testimonial</a></li>
-        <li class="link"><a href="#" class="nav-list-link white-text">Contact</a></li>
-      </ul>
-    </nav>
-    <a href="#" class="header-button caramel-button">Try a demo</a>
-    <label class="burger-nav d-none" for="burger-nav"><i class="fa-solid fa-bars"></i></label>
-    <input hidden class="burger-nav-checkbox d-none" type="checkbox" name="burger-nav" id="burger-nav">
-    <div class="burger-nav-list d-none">
-      <ul class="burger-nav-list-link">
-        <li class="link"><a href="#features" class="nav-list-link white-text">Features</a></li>
-        <li class="link"><a href="#prouducts" class="nav-list-link white-text">Products</a></li>
-        <li class="link"><a href="#testimonial" class="nav-list-link white-text">Testimonial</a></li>
-        <li class="link"><a href="#" class="nav-list-link white-text">Contact</a></li>
-        <li class="link"><a href="#" class="button-burger">Try a demo</a></li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <section class="hero d-flex justify-content-center align-items-center">
-      <div class="hero-content main-container text-center">
-        <div class="play-button">
-          <button class="play-button-icon caramel-button d-flex align-items-center justify-content-center"><img src="./img/play.svg" alt="play-icon"></button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="" />
+    <title>Trunship - Home</title>
+  </head>
+  <body>
+    <header
+      class="container flex items-center justify-between font-nunito text-white"
+    >
+      <a href="#" class="logo">Traunship</a>
+      <nav class="nav-header">
+        <ul class="flex">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Testimonial</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="button header-button">Try a demo</a>
+      <button class="burger-bar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <main>
+      <section class="hero flex items-center justify-center">
+        <div class="hero-content font-nunito text-center text-white">
+          <button class="play-button button flex items-center justify-center">
+            <img src="./imgs/play.svg" alt="play-icon" />
+          </button>
+          <h1>Best place to buy rocket</h1>
+          <p>Quis ipsum pellentesque nulla nulla elementum sagittis dictum</p>
+          <div
+            class="hero-buttons flex items-center justify-center flex-wrap margin-center"
+          >
+            <a href="#" class="button">Try a demo</a>
+            <a href="#" class="button">Buy now</a>
+          </div>
         </div>
-        <h1 class="white-text">Best place to buy rocket</h1>
-        <p class="hero-paragraph white-text font-24">Quis ipsum pellentesque nulla nulla elementum sagittis dictum</p>
-        <div class="hero-button d-flex justify-content-center align-items-center flex-wrap margin-center">
-          <a href="#" class="button caramel-button">Try a demo</a>
-          <a href="#" class="button buy-button">Buy now</a>
+      </section>
+      <section class="features container font-nunito text-center">
+        <h2>Features you can’s avoid</h2>
+        <p>
+          Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim
+          faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim
+          viverra congue nisl
+        </p>
+        <div
+          class="features-cards-wrapper flex items-center justify-center flex-wrap"
+        >
+          <article class="feature-card">
+            <h3>Solid Fuel</h3>
+            <p>
+              Eget mattis viverra in lorem dictum consequat etiam non
+              pellentesque mauris diamprice ore
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Liquid Fuel</h3>
+            <p>
+              Eget mattis viverra in lorem dictum consequat etiam non
+              pellentesque mauris diamprice ore
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Ion Rocket</h3>
+            <p>
+              Eget mattis viverra in lorem dictum consequat etiam non
+              pellentesque mauris diamprice ore
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Plasma Rocket</h3>
+            <p>
+              Eget mattis viverra in lorem dictum consequat etiam non
+              pellentesque mauris diamprice ore
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Supersonic Rocket</h3>
+            <p>
+              Eget mattis viverra in lorem dictum consequat etiam non
+              pellentesque mauris diamprice ore
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Ultra Rocket</h3>
+            <p>
+              Eget mattis viverra in lorem dictum consequat etiam non
+              pellentesque mauris diamprice ore
+            </p>
+          </article>
         </div>
-      </div>
-    </section>
-    <section id="prouducts" class="features main-container">
-      <h2 class="features-title text-center dark-text">Features you can’s avoid</h2>
-      <p class="features-paragraph text-center gray-text font-24">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
-      <div class="card-wrapper d-flex align-items-center justify-content-center flex-wrap">
-        <article class="item">
-          <h3 class="title-item title-item-one text-center caramel-text font-24">Solid Fuel</h3>
-          <p class="paragraph-item text-center gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </article>
-        <article class="item">
-          <h3 class="title-item title-item-two text-center caramel-text font-24">Liquid Fuel</h3>
-          <p class="paragraph-item text-center gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </article>
-        <article class="item">
-          <h3 class="title-item title-item-three text-center caramel-text font-24">Ion Rocket</h3>
-          <p class="paragraph-item text-center gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </article>
-        <article class="item">
-          <h3 class="title-item title-item-four text-center caramel-text font-24">Plasma Rocket</h3>
-          <p class="paragraph-item text-center gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </article>
-        <article class="item">
-          <h3 class="title-item title-item-five text-center caramel-text font-24">Supersonic Rocket</h3>
-          <p class="paragraph-item text-center gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </article>
-        <article class="item">
-          <h3 class="title-item title-item-six text-center caramel-text font-24">Ultra Rocket</h3>
-          <p class="paragraph-item text-center gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-        </article>
-      </div>
-    </section>
-    <section id="testimonial" class="invest">
-      <div class="invest-image"></div>
-      <div class="invest-container">
-        <div class="invest-content">
-          <q class="quote-invest font-bold brown-text">Right time to invest into space</q>
-          <p class="invest-paragraph font-24 brown-text">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
-          <div class="profile d-flex align-items-center">
-            <img src="./img/profile.svg" alt="">
-            <div class="profile-content">
-              <span class="profile-name dark-text d-block">Milon Ask</span>
-              <span class="profile-name dark-text">CEO,Blackhole</span>  
+      </section>
+      <section class="invest flex items-center">
+        <div class="invest-image"></div>
+        <div class="invest-content font-nunito">
+          <h2><q>Right time to invest into space</q></h2>
+          <p>
+            Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus
+            eu, mauris pretium mollis ac id mauris eget.
+          </p>
+          <div class="ceo-profile flex items-center">
+            <img src="./imgs/ceo.svg" alt="ceo-profile" />
+            <h3><span>Milon Ask</span> <span> CEO, Blackhole</span></h3>
+          </div>
+        </div>
+      </section>
+      <section class="affordable container font-nunito">
+        <h2 class="text-center">Affordable, good quality.</h2>
+        <p class="text-center">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
+        <div class="affordable-cards-wrapper flex items-center justify-center flex-wrap">
+          <article class="affordable-card flex items-center justify-center">
+            <img src="./imgs/affordable-one.png" alt="affordable-image">
+            <div class="affordable-card-content">
+              <h3>Million pounds of thrust</h3>
+              <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+              <a href="#">Learn more</a>
             </div>
+          </article>
+          <article class="affordable-card flex items-center justify-center">
+            <img src="./imgs/affordable-two.png" alt="affordable-image">
+            <div class="affordable-card-content">
+              <h3>More than 1,300 missions</h3>
+              <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+              <a href="#">Learn more</a>
+            </div>
+          </article>
+          <article class="affordable-card flex items-center justify-center">
+            <img src="./imgs/affordable-three.png" alt="affordable-image">
+            <div class="affordable-card-content">
+              <h3>Atlas launched Friendship</h3>
+              <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+              <a href="#">Learn more</a>
+            </div>
+          </article>
+          <article class="affordable-card flex items-center justify-center">
+            <img src="./imgs/affordable-four.png" alt="affordable-image">
+            <div class="affordable-card-content">
+              <h3>Separate spacecraft</h3>
+              <p>Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+              <a href="#">Learn more</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="blog flex items-center justify-center">
+        <div class="blog-container font-nunito flex justify-center flex-wrap">
+          <div class="blog-content">
+            <h2>Don’t miss Rocket Science blog</h2>
+            <p>Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
+            <a href="#" class="button">All stories</a>
+          </div>
+          <div class="blog-cards-wrapper flex items-center justify-center flex-wrap">
+            <article class="blog-card flex">
+              <img src="./imgs/blog-one.png" alt="blog-card">
+              <div class="blog-card-content">
+                <h3><q>Rocket lab boots its space system</q></h3>
+                <p>Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
+                <a href="#">Read story</a>
+              </div>
+            </article>
+            <article class="blog-card flex">
+              <img src="./imgs/blog-two.png" alt="blog-card">
+              <div class="blog-card-content">
+                <h3><q>NASA’s big rocket misses deadline</q></h3>
+                <p>Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
+                <a href="#">Read story</a>
+              </div>
+            </article>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="features" class="affordable main-container">
-      <h2 class="affordable-title dark-text text-center">Affordable, good quality.</h2>
-      <p class="affordable-paragraph gray-text font-24 text-center">Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl</p>
-      <div class="affordable-card-wrapper d-flex align-items-center justify-content-center flex-wrap">
-        <article class="affordable-card d-flex align-items-center card-hover">
-          <div class="affordable-card-image affordable-card-image-one"></div>
-          <div class="affordable-card-content">
-            <h3 class="font-24 black-text">Million pounds of thrust</h3>
-            <p class="affordable-card-paragraph gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-            <a href="#" class="caramel-text">Learn more</a>
-          </div>
+      </section>
+      <section class="testimonial container font-nunito text-center flex flex-wrap items-center justify-center">
+        <article class="testimonial-card">
+          <p>I brought a rocket for my son in his 14th birthday. I liked their service. Love it.</p>
+          <h3>Wade Warren</h3>
+          <h4>Astronaut</h4>
         </article>
-        <article class="affordable-card d-flex align-items-center card-hover">
-          <div class="affordable-card-image affordable-card-image-two"></div>
-          <div class="affordable-card-content">
-            <h3 class="font-24 black-text">More than 1,300 missions</h3>
-            <p class="affordable-card-paragraph gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-            <a href="#" class="caramel-text">Learn more</a>
-          </div>
+        <article class="testimonial-card">
+          <p>They delivered my custom rocket as fast as the rocket itself. Mindblowing.</p>
+          <h3>Esther Howard</h3>
+          <h4>Appolo 11 Pilot</h4>
         </article>
-        <article class="affordable-card d-flex align-items-center card-hover">
-          <div class="affordable-card-image affordable-card-image-three"></div>
-          <div class="affordable-card-content">
-            <h3 class="font-24 black-text">Atlas launched Friendship</h3>
-            <p class="affordable-card-paragraph gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-            <a href="#" class="caramel-text">Learn more</a>
-          </div>
+        <article class="testimonial-card">
+          <p>I found awesome customer service from them. They fixed my rocket within a day.</p>
+          <h3>Cameron Williamson</h3>
+          <h4>NASA Manager</h4>
         </article>
-        <article class="affordable-card d-flex align-items-center card-hover">
-          <div class="affordable-card-image affordable-card-image-four"></div>
-          <div class="affordable-card-content">
-            <h3 class="font-24 black-text">Separate spacecraft</h3>
-            <p class="affordable-card-paragraph gray-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-            <a href="#" class="caramel-text">Learn more</a>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="blogs">
-      <div class="blogs-container d-flex align-items-center justify-content-center flex-wrap margin-center">
-        <div class="blog-content">
-          <h2 class="blog-title gray-1-text">Don’t miss Rocket Science blog</h2>
-          <p class="blog-paragraph gray-text font-24">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</p>
-          <a href="#" class="button caramel-button">All stories</a>
-        </div>
-        <article class="blog-card card-hover">
-          <div class="blog-card-image blog-card-image-one"></div>
-          <div class="blog-card-content">
-            <q class="gray-1-text font-bold">Rocket lab boots its space system</q>
-            <p class="blog-card-paragraph font-20">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
-            <a href="#" class="caramel-text font-20">Read story</a>
-          </div>
-        </article>
-        <article class="blog-card card-hover">
-          <div class="blog-card-image blog-card-image-two"></div>
-          <div class="blog-card-content">
-            <q class="gray-1-text font-bold">NASA’s big rocket misses deadline</q>
-            <p class="blog-card-paragraph font-20">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
-            <a href="#" class="caramel-text font-20">Read story</a>
-          </div>
-        </article>
-      </div>
-    </section>
-    <section class="reviews main-container d-flex align-items-center justify-content-center flex-wrap">
-      <article class="review-card">
-        <p class="review-paragraph review-paragraph-one gray-1-text text-center font-24 d-block">I brought a rocket for my son in his 14th birthday. I liked their service. Love it.</p>
-        <span class="name gray-1-text text-center d-block">Wade Warren</span>
-        <span class="work gray-1-text text-center d-block">Astronaut</span>
-      </article>
-      <article class="review-card">
-        <p class="review-paragraph review-paragraph-two gray-1-text text-center font-24 d-block">They delivered my custom rocket as fast as the rocket itself. Mindblowing.</p>
-        <span class="name gray-1-text text-center d-block font-bold font-20">Esther Howard</span>
-        <span class="work gray-1-text text-center d-block">Appolo 11 Pilot</span>
-      </article>
-      <article class="review-card">
-        <p class="review-paragraph review-paragraph-three gray-1-text text-center font-24 d-block">I found awesome customer service from them. They fixed my rocket within a day.</p>
-        <span class="name gray-1-text text-center d-block font-bold font-20">Cameron Williamson</span>
-        <span class="work gray-1-text text-center d-block">NASA Manager</span>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <div class="footer-container main-container">
-      <div class="main-footer d-flex justify-content-between flex-wrap">
-        <div class="traunship-column">
-          <h2 class="logo-footer white-text font-bold">Traunship</h2>
-          <ul>
-            <li><a href="" class="white-text">4517 Washington Ave. Manchester, Kentucky 39495</a></li>
-            <li><a href="" class="white-text">(684) 555-0102</a></li>
-            <li><a href="" class="white-text">(603) 555-0123</a></li>
+      </section>
+    </main>
+  <footer class="flex items-center justify-center">
+    <div class="footer-container container font-nunito">
+      <div class="top-footer flex justify-between flex-wrap">
+        <div class="logo-address">
+          <a href="#" class="logo">Traunship</a>
+          <ul class="address flex ">
+            <li><address>4517 Washington Ave. Manchester,
+              Kentucky 39495</address></li>
+            <li><a href="tel:(684) 555-0102">(684) 555-0102</a></li>
+            <li><a href="tel:(603) 555-0123">(603) 555-0123</a></li>
           </ul>
         </div>
-        <div class="link-column">
-          <h3 class="column-title white-text font-24 font-bold">Quick Links</h3>
-          <ul>
-            <li><a href="" class="white-text font-bold link">Features</a></li>
-            <li><a href="" class="white-text font-bold link">Products</a></li>
-            <li><a href="" class="white-text font-bold link">Testimonial</a></li>
-            <li><a href="" class="white-text font-bold link">Contact</a></li>
+        <nav>
+          <h3>Quick Links</h3>
+          <ul class="quick-links flex">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
-        </div>
-        <div class="contact-column">
-          <h3 class="column-title white-text font-24 font-bold">Newsletter</h3>
-          <div class="email-form">
-            <p class="email-form-paragraph white-text">We send updates in every week</p>
-            <form action="" class="d-flex align-items-center justify-content-center">
-              <input class="input-email" required type="email" placeholder="Email Address">
-              <input type="submit" class="button caramel-button" value="Go">
-            </form>
-          </div>
+        </nav>
+        <div class="contact">
+          <h3>Newsletter</h3>
+          <form class="form" action="">
+            <h4>We send updates in every week</h4>
+            <div class="email-submit flex items-center justify-center flex-wrap">
+              <input type="email" placeholder="Email Address" required>
+              <input type="submit" value="Go" class="button">
+            </div>
+          </form>
         </div>
       </div>
-      <div class="base-footer d-flex align-items-center justify-content-between flex-wrap">
-        <p class="copyright white-text">© 2021 Traunship. All right reserved.</p>
-        <div class="social-icon d-flex align-items-center">
-          <a class="icon" href="#"><i class="fa-brands fa-facebook-f fa-xs"></i></a>
-          <a class="icon" href="#"><i class="fa-brands fa-twitter  fa-xs"></i></a>
-          <a class="icon" href="#"><i class="fa-brands fa-instagram fa-xs"></i></a>
-          <a class="icon" href="#"><i class="fa-brands fa-linkedin fa-xs"></i></a>
-        </div>
+      <span class="footer-line"></span>
+      <div class="sub-footer flex items-center justify-between flex-wrap">
+        <p>© 2021 Traunship. All right reserved.</p>
+        <ul class="social-media flex items-center">
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
       </div>
     </div>
   </footer>
-</body>
+  </body>
 </html>
