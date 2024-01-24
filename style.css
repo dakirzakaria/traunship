@@ -73,6 +73,21 @@ h1 {
   background-color: transparent;
   border-color: var(--white);
 }
+.buy-button{
+  color: var(--white);
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 28px;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 2px solid var(--white);
+  transition: all 0.8s;
+}
+.buy-button:hover{
+  background-color: var(--brownish-orange);
+  border-color: var(--brownish-orange);
+}
 .flex {
   display: flex;
 }
@@ -320,6 +335,7 @@ h1 {
 .blog-content {
   width: 100%;
   min-width: 245px;
+  max-width: 455px;
   padding: 56px var(--padding) 0;
   flex: 1;
 }
