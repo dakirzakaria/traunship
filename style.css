@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "Nunito";
-  src: url(./nunito.ttf);
-}
 :root {
   --padding: 16px;
   --white: #ffffff;
