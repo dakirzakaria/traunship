@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Nunito";
-  src: url(./Nunito.ttf));
+  src: url(./Nunito.ttf);
 }
 :root {
   --padding: 16px;
