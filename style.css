@@ -333,7 +333,6 @@ h1 {
   min-width: 245px;
   max-width: 455px;
   padding: 56px var(--padding) 0;
-  flex: 1;
 }
 .blog-content h2 {
   color: var(--dark-gray);
@@ -496,6 +495,12 @@ i {
 .footer-container a:hover,
 a:hover i {
   color: var(--brownish-orange);
+}
+@media only screen and (max-width: 1237px) {
+  .blog-content{
+    max-width: 100%;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 912px) {
   .top-footer {
