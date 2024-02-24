@@ -496,13 +496,13 @@ i {
 a:hover i {
   color: var(--brownish-orange);
 }
-@media only screen and (max-width: 1237px) {
+@media (max-width: 1237px) {
   .blog-content{
     max-width: 100%;
     text-align: center;
   }
 }
-@media only screen and (max-width: 912px) {
+@media (max-width: 912px) {
   .top-footer {
     flex-direction: column;
   }
@@ -512,7 +512,7 @@ a:hover i {
     align-items: flex-start;
   }
 }
-@media only screen and (max-width: 810px) {
+@media (max-width: 810px) {
   .nav-header {
     display: none;
   }
@@ -556,7 +556,7 @@ a:hover i {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 510px) {
+@media (max-width: 510px) {
   .affordable-card {
     flex-wrap: wrap;
     text-align: center;
